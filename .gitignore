@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+bin/
+*.so
+*.o
+*.a
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Private scripts
+run.sh
+
+# Dependencies (built locally)
+third_party/funchook/
+!third_party/.gitkeep
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*~
