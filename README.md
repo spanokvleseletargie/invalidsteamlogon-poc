@@ -1,5 +1,7 @@
 # invalidsteamlogon
 
+## patched. useless. archived.
+
 recreation of the cs2 invalidsteamlogon poc, but for linux.
 
 hooks `FrameStageNotify` and dispatches `InvalidSteamLogon` KeyValues events (180/frame) when holding insert.
